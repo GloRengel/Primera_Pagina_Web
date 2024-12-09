@@ -1,0 +1,171 @@
+* {
+    font-family: 'Parkinsans' ,Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: var(--fondo);
+
+}
+
+body {
+
+}
+
+div {
+    text-align: center; 
+}
+
+.titulo_H1 {
+    background-color: var(--tercer-color);
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+img {
+    max-width:100%;
+    vertical-align:top;
+    width: 300px;
+    height: 200px;
+}
+/*Estilos para la imagen de icono de la pagina*/
+.nav-img {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+/*Centrar el texto en el meddio del body*/
+h2 {
+    display: flex;
+    justify-content: center;
+}
+/*estilos para el div con clase actualidad, para centrar las 3 noticias*/
+.cuerpo {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+/*Estilo para darle margen de 10px a los elementos que hay dentro de la clase cuerpo*/
+.cuerpo * {
+    margin: 10px;
+}
+/*Estilo para las imagenes de las noticias*/
+#foto-actualidad {
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+	margin-right: auto;
+}
+/*Estilo para que el texto del enlace salga cursiva*/
+a {
+    font-style: oblique;
+}
+/*Estilo para que el texto que sale que es link de la noticia se ponga de color primario cuando te situas sobre él*/
+a:hover {
+    color: var(--tercer-color);
+    background-color: transparent;
+    text-decoration: underline;
+}
+/*fondo para la tabla de la próxima jornada*/
+.jornadas {
+    margin: 20px 20px 30px 30px;
+    
+
+}
+/*aplicar estilos a la tabla de las jornadas*/
+.proxima_jornada {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+
+}
+/**/
+.img-equipos {
+    width: 60px;
+    height: 50px;
+    background-color: white;
+    
+    text-align: left;
+    
+}
+.uno {
+    background-color: rgb(194, 194, 194);
+}
+
+.clasificacion {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    background-color: white;
+    width: 1200px;
+    
+}
+
+td, th {
+    width: 280px;
+    height: 28px;
+    padding: 10px;
+    background-color: white;
+}
+
+#local {
+    text-align: left;
+    
+}
+#visitante {
+    text-align: right;
+}
+
+.equipo{
+    width: 800px;
+    height: 20px;
+    text-align: left;
+}
+
+.redes_sociales{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-color: var(--fondo);
+    font-size: 1.3rem;
+    color: var(--prymary-color);
+    z-index: 99;
+}
+
+.lista-rrss {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: var(--prymary-color);
+    z-index: 99;
+}
+
+.sobre_mi {
+    margin: 200px;
+}
+
+.img-sobremi1 {
+    width: 120px;
+    height: auto;
+    float: left;
+}
+
+.img-sobremi2 {
+    width: auto;
+    height: 120px;
+    float: right;
+}
+
+
+
+
